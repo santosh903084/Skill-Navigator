@@ -204,8 +204,8 @@ const Registration = () => {
           Register
         </Button>
         <p style={{ color: 'black', textAlign: 'center', marginTop: '10px' }}>
-          Already have an account?{' '}
-          <Link href="/" style={{ color: 'blue' }}>
+          Already have an account?{''}
+          <Link href="/login" style={{ color: 'blue' }}>
             Login
           </Link>
         </p>

@@ -3,7 +3,7 @@ import { AppBar, Toolbar, Button, Typography, Grid, Container, Box } from '@mui/
 import { useNavigate } from 'react-router-dom';
 
 // Sample images - replace with actual image paths
-import bg_1 from './images/bg_1.jpg'; // Replace with your actual image
+import image1 from './images/image1.jpg'; // Replace with your actual image
 
 const LandingPage = () => {
   const navigate = useNavigate();
@@ -64,12 +64,12 @@ const LandingPage = () => {
             <Box
               component="img"
               sx={{
-                width: '100%',
+                width: '80%',
                 borderRadius: '8px',
                 boxShadow: 3,
               }}
               alt="Skill Navigator"
-              src={bg_1} // Replace with your actual image
+              src={image1} // Replace with your actual image
             />
           </Grid>
         </Grid>
